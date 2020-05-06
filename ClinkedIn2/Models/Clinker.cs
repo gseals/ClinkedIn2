@@ -18,5 +18,6 @@ namespace ClinkedIn2.Models
     public class LineItem
     {
         public string Service { get; set; }
+        public bool IsRequested { get; set; }
     }
 }
